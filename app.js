@@ -11,6 +11,7 @@ const app = express();
 // Database connection
 const db = mysql.createConnection({
     host: 'localhost',
+    prot: 3307,
     user: 'root',
     password: 'Republic_C207',
     database: 'C237_usersdb'
