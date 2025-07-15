@@ -10,11 +10,11 @@ const app = express();
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    prot: 3307,
-    user: 'root',
-    password: 'Republic_C207',
-    database: 'C237_usersdb'
+    host: '6p3ll0.h.filess.io',
+    port: 3307,
+    user: 'C237database_mouseheavy',
+    password: '15786728784611dd056e67718d753bc755348ada',
+    database: 'C237database_mouseheavy'
 });
 
 db.connect((err) => {
